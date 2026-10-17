@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="#0c0b0a" name="theme-color" />
+    <meta
+      content="Barbearia Stylos em Caxias do Sul. Cortes, barba e estilo com atendimento agendado no bairro Esplanada."
+      name="description"
+    />
+    <title>Barbearia Stylos | Seu estilo, nosso compromisso</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="brand" href="#inicio"
+        ><img alt="Logo Barbearia Stylos" src="assets/logo.jpg" /><span
+          >BARBEARIA <strong>STYLOS</strong></span
+        ></a
+      ><button
+        aria-expanded="false"
+        aria-label="Abrir menu"
+        class="menu-toggle"
+      >
+        ☰
+      </button>
+      <nav id="menu">
+        <a href="#sobre">Sobre</a><a href="#servicos">Serviços</a
+        ><a href="#galeria">Galeria</a><a href="#localizacao">Localização</a
+        ><a
+          class="nav-cta"
+          href="https://wa.me/5554999540626?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20na%20Barbearia%20Stylos."
+          rel="noopener"
+          target="_blank"
+          >Agendar horário ↗</a
+        >
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+          <span class="eyebrow">✦ BARBEARIA • CAXIAS DO SUL</span
+          ><img
+            alt="Emblema dourado Barbearia Stylos"
+            class="hero-logo"
+            src="assets/logo.jpg"
+          />
+          <h1>Seu estilo.<br /><em>Nossa assinatura.</em></h1>
+          <p>
+            Mais que um corte, uma experiência. Cabelo, barba e cuidado nos
+            detalhes, do seu jeito.
+          </p>
+          <div class="actions">
+            <a
+              class="btn primary"
+              href="https://wa.me/5554999540626?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20na%20Barbearia%20Stylos."
+              rel="noopener"
+              target="_blank"
+              >Agendar pelo WhatsApp ↗</a
+            ><a class="btn secondary" href="#servicos">Conhecer serviços ↓</a>
+          </div>
+          <div class="hero-meta">
+            <span>◈ Atendimento com horário marcado</span
+            ><span>◈ Bairro Esplanada</span>
+          </div>
+        </div>
+        <div aria-hidden="true" class="hero-decoration">
+          <div class="ring ring-one"></div>
+          <div class="ring ring-two"></div>
+          <span>S</span>
+        </div>
+      </section>
+      <section class="section about" id="sobre">
+        <div class="section-label">A EXPERIÊNCIA</div>
+        <div class="about-grid">
+          <div>
+            <span class="eyebrow">TRADIÇÃO, CUIDADO E IDENTIDADE</span>
+            <h2>O corte certo muda <em>tudo.</em></h2>
+          </div>
+          <div>
+            <p>
+              Na <strong>Barbearia Stylos</strong>, cada atendimento é pensado
+              para valorizar seu estilo e sua autoestima. Um espaço para cuidar
+              do visual com atenção, tranquilidade e personalidade.
+            </p>
+            <div class="feature-grid">
+              <div><b>01</b><span>Atendimento individual</span></div>
+              <div><b>02</b><span>Horário agendado</span></div>
+              <div><b>03</b><span>Cabelo e barba</span></div>
+              <div><b>04</b><span>Seu estilo em primeiro lugar</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section services" id="servicos">
+        <div class="section-label">SERVIÇOS</div>
+        <div class="center-heading">
+          <span class="eyebrow">SEU VISUAL EM BOAS MÃOS</span>
+          <h2>Serviços &amp; <em>valores</em></h2>
+          <p>
+            Confira alguns dos serviços oferecidos. Valores sujeitos a
+            confirmação no agendamento.
+          </p>
+        </div>
+        <div class="services-grid" id="services-grid"></div>
+        <p class="services-note">
+          * Para procedimentos especiais, consulte disponibilidade e valor final
+          pelo WhatsApp.
+        </p>
+        <div class="center">
+          <a
+            class="btn primary"
+            href="https://wa.me/5554999540626?text=Ol%C3%A1%21%20Quero%20consultar%20um%20servi%C3%A7o%20e%20agendar%20um%20hor%C3%A1rio."
+            rel="noopener"
+            target="_blank"
+            >Consultar e agendar ↗</a
+          >
+        </div>
+      </section>
+      <section class="section gallery" id="galeria">
+        <div class="section-label">NOSSO TRABALHO</div>
+        <div class="center-heading">
+          <span class="eyebrow">RESULTADOS REAIS</span>
+          <h2>Estilo em cada <em>detalhe.</em></h2>
+          <p>Conheça alguns dos trabalhos realizados na Barbearia Stylos.</p>
+        </div>
+        <div class="gallery-slider" aria-label="Destaques da galeria">
+          <button
+            class="slide-arrow"
+            id="prev-photo"
+            aria-label="Foto anterior"
+          >
+            ❮
+          </button>
+          <div class="slide-track" id="slide-track"></div>
+          <button class="slide-arrow" id="next-photo" aria-label="Próxima foto">
+            ❯
+          </button>
+        </div>
+        <div class="gallery-filters" role="group" aria-label="Filtrar fotos">
+          <button class="filter-btn active" data-filter="todos">Todas</button
+          ><button class="filter-btn" data-filter="cortes">Cortes</button
+          ><button class="filter-btn" data-filter="barbas">Barbas</button>
+        </div>
+        <div class="photo-grid" id="photo-grid"></div>
+        <div class="center">
+          <a
+            class="btn secondary"
+            href="https://www.instagram.com/barbeariastylos.s/"
+            rel="noopener"
+            target="_blank"
+            >Mais trabalhos no Instagram ↗</a
+          >
+        </div>
+      </section>
+      <div
+        class="lightbox"
+        id="photo-lightbox"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Visualizar fotografia"
+        hidden
+      >
+        <button id="close-lightbox" aria-label="Fechar fotografia">✕</button
+        ><img id="lightbox-image" alt="" />
+      </div>
+      <section class="banner">
+        <span class="eyebrow">SEU PRÓXIMO CORTE COMEÇA AQUI</span>
+        <h2>Pronto para renovar <em>o visual?</em></h2>
+        <p>Agende seu horário e venha viver a experiência Stylos.</p>
+        <a
+          class="btn primary"
+          href="https://wa.me/5554999540626?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20na%20Barbearia%20Stylos."
+          rel="noopener"
+          target="_blank"
+          >Quero agendar ↗</a
+        >
+      </section>
+      <section class="section contact" id="localizacao">
+        <div class="section-label">VENHA NOS VISITAR</div>
+        <div class="contact-grid">
+          <div>
+            <span class="eyebrow">ESTAMOS TE ESPERANDO</span>
+            <h2>Seu lugar é <em>aqui.</em></h2>
+            <div class="contact-info">
+              <div>
+                <b>ENDEREÇO</b>
+                <p>
+                  Av. Dr. Assis Antônio Mariani, 522 — Pavilhão 3<br />Bairro
+                  Esplanada — Caxias do Sul, RS<br />CEP 95095-100
+                </p>
+              </div>
+              <div>
+                <b>ATENDIMENTO E COMODIDADES</b>
+                <p>
+                  Atendimento com agendamento prévio.<br />Wi-Fi gratuito e
+                  estacionamento próprio.
+                </p>
+              </div>
+            </div>
+            <a
+              class="btn primary"
+              href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Dr.+Assis+Antonio+Mariani+522+Pavilhao+3+Caxias+do+Sul"
+              rel="noopener"
+              target="_blank"
+              >Como chegar ↗</a
+            >
+          </div>
+          <div class="map">
+            <iframe
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://maps.google.com/maps?q=Av.%20Dr.%20Assis%20Antonio%20Mariani%20522%20Pavilhao%203%20Caxias%20do%20Sul&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+              title="Localização da Barbearia Stylos no Google Maps"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-top">
+        <a class="brand" href="#inicio"
+          ><img alt="Logo Stylos" src="assets/logo.jpg" /><span
+            >BARBEARIA <strong>STYLOS</strong></span
+          ></a
+        >
+        <p>Mais que um corte, um estilo de vida.</p>
+        <div class="footer-social">
+          <a
+            aria-label="Instagram"
+            class="social-link instagram"
+            href="https://www.instagram.com/barbeariastylos.s/"
+            rel="noopener noreferrer"
+            target="_blank"
+            ><svg
+              aria-hidden="true"
+              class="social-icon"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.7"
+              viewbox="0 0 24 24"
+            >
+              <rect height="20" rx="5" width="20" x="2" y="2"></rect>
+              <circle cx="12" cy="12" r="4"></circle>
+              <circle
+                cx="18"
+                cy="6"
+                fill="currentColor"
+                r="1"
+                stroke="none"
+              ></circle></svg
+            ><span>Instagram</span></a
+          ><a
+            aria-label="Facebook"
+            class="social-link facebook"
+            href="https://www.facebook.com/barbearia.dihbarbershop/"
+            rel="noopener noreferrer"
+            target="_blank"
+            ><svg
+              aria-hidden="true"
+              class="social-icon"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.7"
+              viewbox="0 0 24 24"
+            >
+              <path
+                d="M14 21v-8h3l.5-4H14V7c0-1.2.4-2 2-2h2V2.2A23 23 0 0 0 15.4 2C12.8 2 11 3.6 11 6.5V9H8v4h3v8"
+              ></path></svg
+            ><span>Facebook</span></a
+          ><a
+            aria-label="WhatsApp"
+            class="social-link whatsapp"
+            href="https://wa.me/5554999540626?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20na%20Barbearia%20Stylos."
+            rel="noopener noreferrer"
+            target="_blank"
+            ><svg
+              aria-hidden="true"
+              class="social-icon"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.7"
+              viewbox="0 0 24 24"
+            >
+              <path
+                d="M21 11.5a8.7 8.7 0 0 1-12.7 7.7L3 21l1.8-5.1A8.7 8.7 0 1 1 21 11.5Z"
+              ></path>
+              <path
+                d="M8.2 8.4c.3-.4.5-.4.8-.4h.5l1.1 2.2-.7 1c.6 1.2 1.6 2.2 2.8 2.8l1-.7 2.2 1.1v.5c0 .3 0 .5-.4.8-.7.6-1.7.7-2.5.4-2.5-.9-4.7-3.1-5.6-5.6-.3-.8-.2-1.8.4-2.5Z"
+              ></path></svg
+            ><span>WhatsApp</span></a
+          >
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span
+          >© <span id="year"></span> Barbearia Stylos. Todos os direitos
+          reservados.</span
+        ><a href="#inicio">Voltar ao topo ↑</a>
+      </div>
+    </footer>
+    <a
+      aria-label="Agendar pelo WhatsApp"
+      class="floating-whatsapp"
+      href="https://wa.me/5554999540626?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20na%20Barbearia%20Stylos."
+      rel="noopener"
+      target="_blank"
+      ><svg
+        aria-hidden="true"
+        class="social-icon"
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.7"
+        viewbox="0 0 24 24"
+      >
+        <path
+          d="M21 11.5a8.7 8.7 0 0 1-12.7 7.7L3 21l1.8-5.1A8.7 8.7 0 1 1 21 11.5Z"
+        ></path>
+        <path
+          d="M8.2 8.4c.3-.4.5-.4.8-.4h.5l1.1 2.2-.7 1c.6 1.2 1.6 2.2 2.8 2.8l1-.7 2.2 1.1v.5c0 .3 0 .5-.4.8-.7.6-1.7.7-2.5.4-2.5-.9-4.7-3.1-5.6-5.6-.3-.8-.2-1.8.4-2.5Z"
+        ></path></svg
+      ><span>Agendar</span></a
+    >
+    <script src="script.js"></script>
+  </body>
+</html>
